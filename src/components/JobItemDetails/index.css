@@ -1,0 +1,147 @@
+.job-item-details-container {
+  background-color: black;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+@media (min-width: 768px) {
+  .job-item-details-container {
+    padding: 40px;
+  }
+}
+
+.job-details-view {
+  margin-top: 20px;
+  background-color: #272727;
+  padding: 20px;
+  color: white;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .job-details-view {
+    padding: 40px;
+  }
+}
+
+.description-visit-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.visit-link {
+  color: #b6c5ff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.visit-text {
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.main-topic-heading {
+  font-weight: 500;
+  font-family: roboto;
+}
+
+@media (min-width: 768px) {
+  .main-topic-heading {
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+}
+
+.skills-list-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.skill-item {
+  display: flex;
+  align-items: center;
+  min-width: 200px;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .skill-item {
+    min-width: 250px;
+  }
+}
+
+.skill-logo {
+  width: 30px;
+  margin-right: 10px;
+}
+
+@media (min-width: 768px) {
+  .skill-logo {
+    width: 40px;
+  }
+}
+
+@media (min-width: 768px) {
+  .life-at-company-container {
+    display: flex;
+    align-items: flex-start;
+  }
+  .company-description {
+    max-width: 65%;
+    margin-right: 40px;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+}
+
+.life-at-company {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .life-at-company {
+    margin-top: 20px;
+  }
+}
+
+.similar-jobs-list-item {
+  padding-left: 0;
+  list-style: none;
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .similar-jobs-list-item {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.similar-job-heading {
+  color: white;
+  font-family: roboto;
+  font-weight: 500;
+}
+
+.similar-job-item {
+  margin-top: 20px;
+  background-color: #272727;
+  padding: 20px;
+  color: white;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .similar-job-item {
+    max-width: 290px;
+    margin-bottom: 10;
+    margin-right: 30px;
+  }
+}
